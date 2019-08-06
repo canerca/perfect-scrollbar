@@ -22,7 +22,7 @@ export function matches(element, query) {
 export function remove(element) {
   if (element.remove) {
     element.remove();
-  } else {
+  } else {    
     if (element.parentNode) {
       element.parentNode.removeChild(element);
     }
